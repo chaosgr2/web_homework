@@ -30,11 +30,6 @@ text-align: center;
 
 }
 
-p {
-    #font-family: Vasek;
-   # font-size: 30px;
-}
-
 body {
     background: rgb(221, 221, 221);
 
@@ -71,6 +66,7 @@ body {
     left: 650px;
     opacity: .3;
 }
+
 .footer{
     position: relative;
     width: 100%;
@@ -82,19 +78,16 @@ body {
     flex-direction: column;
     margin-top: 1600px;
     font-family: AmaticSC-Regular;
-    
-    
-    
 }
 
 .header_menu{
     background: fixed #3586ff;
     padding: 10px;
-    font-family: AmaticSC-Bold
-    
 }
+
 .header_menu, .header_menu_text{
     text-align: right;
+    font-family: AmaticSC-Bold
 }
 
 .sidebar{
