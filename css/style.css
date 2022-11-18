@@ -1,0 +1,114 @@
+@font-face 
+{font-family:'Vasek';
+    src: local('Vasek'), 
+    url('/fonts/VasekItalic.ttf');
+    
+}
+
+@font-face 
+{font-family:'AmaticSC-Bold';
+    src: local('AmaticSC-Bold'), 
+    url('/fonts/AmaticSC-Bold.ttf');
+    
+}
+
+@font-face 
+{font-family:'AmaticSC-Regular';
+    src: local('AmaticSC-Regular'), 
+    url('/fonts/AmaticSC-Regular.ttf');
+    
+}
+
+
+h1 {
+text-align: center;
+
+}
+
+h2 {
+text-align: center;
+
+}
+
+p {
+    #font-family: Vasek;
+   # font-size: 30px;
+}
+
+body {
+    background: rgb(221, 221, 221);
+
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    margin-left: -500px;
+    position:absolute;
+    width: 1000px;
+    height: auto;
+    box-shadow: inset 2px 2px 2px -2px rgb(196, 195, 195);
+    text-align: center;
+    padding: 0px 10px;
+    margin-top: 20px;
+    font-family: Vasek;
+    font-size: 25px;
+}
+
+.background-photo{
+    position: absolute;
+    width: 100%;
+}
+
+.list_stile-{
+    list-style-type:"- ";
+    text-align: left;
+}
+
+.image_print{
+    position: absolute;
+    top: 1150px;
+    left: 650px;
+    opacity: .3;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    padding: 20px 50px;
+    background: #3586ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1600px;
+    font-family: AmaticSC-Regular;
+    
+    
+    
+}
+
+.header_menu{
+    background: fixed #3586ff;
+    padding: 10px;
+    font-family: AmaticSC-Bold
+    
+}
+.header_menu, .header_menu_text{
+    text-align: right;
+}
+
+.sidebar{
+    background-color: rgba(255, 255, 255, 0.812);
+    left: 10px;
+    position: fixed;
+    width: 250px;
+    height: auto;
+    box-shadow: inset 2px 2px 2px -2px rgb(196, 195, 195);
+    text-align: center;
+    padding: 0px 2px;
+    margin-top: 20px;
+    display: flexbox;
+    font-family: AmaticSC-Bold;
+    font-size: 20px;
+    
+}
