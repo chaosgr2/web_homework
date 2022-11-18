@@ -2,37 +2,31 @@
 {font-family:'Vasek';
     src: local('Vasek'), 
     url('/fonts/VasekItalic.ttf');
-    
 }
 
 @font-face 
 {font-family:'AmaticSC-Bold';
     src: local('AmaticSC-Bold'), 
     url('/fonts/AmaticSC-Bold.ttf');
-    
 }
 
 @font-face 
 {font-family:'AmaticSC-Regular';
     src: local('AmaticSC-Regular'), 
     url('/fonts/AmaticSC-Regular.ttf');
-    
 }
 
 
 h1 {
 text-align: center;
-
 }
 
 h2 {
 text-align: center;
-
 }
 
 body {
     background: rgb(221, 221, 221);
-
 }
 
 .main {
